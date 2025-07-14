@@ -1,14 +1,3 @@
-Based on your **NestJS Machine Round Test** PDF and the provided **project zip**, here is a professional `README.md` tailored to the requirements. It includes:
-
-* Setup instructions
-* Route details
-* Authentication flow
-* Token handling
-* Swagger usage
-* Project structure overview
-
----
-
 ### ✅ README.md
 
 ```markdown
@@ -49,9 +38,10 @@ This is a RESTful API built with **NestJS**, demonstrating:
 
 src/
 ├── auth/           # Signup, Login, JWT guards
+├── guards/         # JWT guards
 ├── tasks/          # Task module: model, service, controller
 ├── users/          # User entity and relations
-├── common/         # Guards, interceptors, decorators
+├── common/         # decorators
 ├── main.ts         # Entry point
 ├── app.module.ts   # Main app module
 
@@ -166,9 +156,8 @@ src/
 
 ## 🧪 Optional Enhancements (If Implemented)
 
-* ✅ Unit tests with Jest
 * ✅ Soft delete functionality
-* ✅ Prisma middleware for security
+
 
 ---
 
